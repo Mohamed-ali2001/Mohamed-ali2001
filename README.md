@@ -68,4 +68,5 @@ Aspiring **AI Engineer / Data Scientist** — Deep Learning, Explainability, AI 
 
 [![Math for ML](https://img.shields.io/badge/Coursera-Mathematics%20for%20ML-0e6e55)](certificates/math-for-ml.pdf)
 
-
+👉 Explore my portfolio here:  
+**[https://<your-username>.github.io/](https://mohamed-ali2001.github.io/Mohamed-ali2001/)**
