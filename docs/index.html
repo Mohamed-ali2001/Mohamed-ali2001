@@ -185,12 +185,18 @@
   <!-- CONTACT -->
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <form class="contact" action="https://formspree.io/f/your-form-id" method="POST">
+    <form class="contact" action="https://formspree.io/f/xnnbovyd" method="POST">
       <div class="row">
         <input name="name" placeholder="Your name" required />
         <input type="email" name="email" placeholder="Your email" required />
       </div>
       <textarea name="message" rows="5" placeholder="Your message"></textarea>
+     
+      <input type="hidden" name="_subject" value="New message from your portfolio" />
+      <input type="hidden" name="_gotcha" style="display:none" />   <!-- honeypot anti-bot -->
+      <input type="hidden" name="_captcha" value="false" />         <!-- disable captcha (optional) -->
+      <input type="hidden" name="_template" value="table" />        <!-- nicer email formatting -->
+      <input type="hidden" name="_next" value="https://mohamed-ali2001.github.io/MOHAMED-ALI2001/#contact" /> 
       <button class="btn" type="submit">Send</button>
       <p class="muted">Or email me at <a href="mailto:mohamedalibenyoussef345@gmail.com">mohamedalibenyoussef345@gmail.com</a></p>
     </form>
