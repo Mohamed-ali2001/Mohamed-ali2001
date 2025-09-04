@@ -29,7 +29,7 @@
   <header id="home" class="hero">
     <div class="hero-txt">
       <h1>Hello, I’m <span class="accent">Mohamed Ali</span></h1>
-      <p>Final-year MSc in <b>Applied Mathematics & Machine Learning</b>. I build data products with a focus on <b>explainability</b>, <b>robustness</b>, and <b>user impact</b>.</p>
+      <p>Final-year MSc student in Applied Mathematics & AI (Data Science), aspiring Data Scientist / AI Engineer. Passionate about building data-driven solutions and currently seeking opportunities in AI and Data Science.</p>
       <div class="cta">
         <a class="btn" href="#projects">View Projects</a>
         <a class="btn ghost" href="mailto:mohamedalibenyoussef345@gmail.com">Email</a>
@@ -44,34 +44,52 @@
 
   <!-- ABOUT / EXPERIENCE -->
   <section id="about" class="section">
-    <h2>About & Experience</h2>
-    <div class="about-grid">
-      <div>
-        <p>I design ML solutions end-to-end (notebooks → apps) and care about traceability, evaluation, and clarity for stakeholders.</p>
-        <ul class="bullets">
-          <li>AI Safety @ NXP: Fisher Information Matrix, Hessian sensitivity, gradient analysis</li>
-          <li>Fault injection pipelines to validate robustness & correlate with metrics</li>
-          <li>Explainability (SHAP/LIME), dashboards, and what-if analysis</li>
-        </ul>
-      </div>
-      <div class="timeline">
-        <div class="tl-item">
-          <span class="tl-date">2025</span>
-          <div class="tl-card">
-            <b>AI Safety Intern — NXP</b>
-            <p>Vulnerability scoring of neural networks (FIM/Hessian/Grad) + fault injection validation</p>
-          </div>
+  <h2>About & Experience</h2>
+  <div class="about-grid">
+    <div>
+      <p>
+        Final-year MSc student in <b>Applied Mathematics & Machine Learning</b>, aspiring <b>Data Scientist / AI Engineer</b>.  
+        I combine academic training with internship experience, working on projects ranging from <b>classical ML optimization</b> to 
+        <b>deep learning, explainability, and AI safety</b>.
+      </p>
+      <h3>Academic & Project Highlights</h3>
+      <ul class="bullets">
+        <li>Implemented and optimized classical ML algorithms (Decision Trees, Random Forests, Gradient Boosting, SVMs).</li>
+        <li>Deep Learning projects: <b>Autoencoders</b> for anomaly detection, <b>CNNs</b> for image classification, <b>RNN/LSTMs</b> for sequence modeling.</li>
+        <li>Explored <b>sensitivity analysis</b> methods (gradients, Fisher Information Matrix, Hessians) for robustness evaluation.</li>
+        <li>Applied advanced <b>statistics and probability</b> for inference, hypothesis testing, and simulation (Monte Carlo, stochastic calculus).</li>
+      </ul>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-date">2025</span>
+        <div class="tl-card">
+          <b>Neural Network Vulnerability Analysis Intern — NXP</b>
+          <ul class="bullets">
+            <li>Identified vulnerabilities in neural networks by assigning sensitivity scores to model parameters using <b>Gradient, Fisher Information Matrix (FIM), and Hessian methods</b>.</li>
+            <li>Validated vulnerability scores via <b>fault injection</b>, correlating analytical measures with empirical impacts (accuracy drop, entropy increase, Earth Mover’s Distance).  
+                Best correlation observed: Gradient vs. EMD (0.75).</li>
+            <li>Implemented <b>Suspicious Path Analysis (SPA)</b> by combining Layer-wise Relevance Propagation (LRP) with Spectrum-Based Fault Localization (SBFL) to identify critical error propagation paths in deep neural networks.</li>
+          </ul>
         </div>
-        <div class="tl-item">
-          <span class="tl-date">2024</span>
-          <div class="tl-card">
-            <b>AI Safety Research Intern — NXP</b>
-            <p>FTA on CNN failure modes; 10k+ saliency maps; limits of LIME on internal faults</p>
-          </div>
+      </div>
+
+      <div class="tl-item">
+        <span class="tl-date">2024</span>
+        <div class="tl-card">
+          <b>AI Functional Safety Intern — NXP</b>
+          <ul class="bullets">
+            <li>Conducted a <b>Fault Tree Analysis (FTA)</b> on AI failure modes, identifying 20+ critical error propagation paths in a CNN.</li>
+            <li>Studied the use of <b>LIME explainability</b> on a CNN (MNIST), generating 10,000+ input saliency maps.</li>
+            <li>Evaluated LIME’s effectiveness: successfully localized visible data perturbations in 85% of cases, but limited performance on internal faults (weights, biases, hyperparameters).</li>
+          </ul>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- SKILLS -->
   <section id="skills" class="section">
