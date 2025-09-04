@@ -57,8 +57,7 @@ Aspiring **AI Engineer / Data Scientist** — Deep Learning, Explainability, AI 
 
 ---
 
-## 🧰 Skills (compact)
-
+## 🧰 Skills
 **Python, SQL, TensorFlow, scikit-learn, NLP, Computer Vision, SHAP/LIME, Git, Power BI, Azure, LLM**
 
 ---
@@ -66,8 +65,7 @@ Aspiring **AI Engineer / Data Scientist** — Deep Learning, Explainability, AI 
 ## 🎓 Certifications  
 
 [![ML Specialization](https://img.shields.io/badge/Stanford-ML%20Specialization-0e6e55)](certificates/stanford-ml.pdf)
-[![Deep Learning](https://img.shields.io/badge/Coursera-Deep%20Learning%20Specialization-0e6e55)](certificates/deep-learning.pdf)
+
 [![Math for ML](https://img.shields.io/badge/Coursera-Mathematics%20for%20ML-0e6e55)](certificates/math-for-ml.pdf)
-[![LLMOps](https://img.shields.io/badge/Specialization-LLMOps-0e6e55)](certificates/llmops.pdf)
 
 
