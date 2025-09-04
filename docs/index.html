@@ -43,35 +43,69 @@
   </header>
 
   <!-- ABOUT / EXPERIENCE -->
-  <section id="about" class="section">
+<section id="about" class="section">
   <h2>About & Experience</h2>
-  <div class="about-grid">
-    <div>
-      <p>
-        Final-year MSc student in <b>Applied Mathematics & Machine Learning</b>, aspiring <b>Data Scientist / AI Engineer</b>.  
-        I combine academic training with internship experience, working on projects ranging from <b>classical ML optimization</b> to 
-        <b>deep learning, explainability, and AI safety</b>.
+
+  <div class="about-grid improved">
+    <!-- LEFT: About + Academic highlights -->
+    <div class="about-left">
+      <p class="lead">
+        Final-year MSc in <b>Applied Mathematics & Machine Learning</b>, aspiring <b>Data Scientist / AI Engineer</b>.  
+        I build AI and data-driven solutions with a focus on <b>explainability</b>, <b>robustness</b>, and <b>impactful applications</b>.
       </p>
-      <h3>Academic & Project Highlights</h3>
-      <ul class="bullets">
-        <li>Implemented and optimized classical ML algorithms (Decision Trees, Random Forests, Gradient Boosting, SVMs).</li>
-        <li>Deep Learning projects: <b>Autoencoders</b> for anomaly detection, <b>CNNs</b> for image classification, <b>RNN/LSTMs</b> for sequence modeling.</li>
-        <li>Explored <b>sensitivity analysis</b> methods (gradients, Fisher Information Matrix, Hessians) for robustness evaluation.</li>
-        <li>Applied advanced <b>statistics and probability</b> for inference, hypothesis testing, and simulation (Monte Carlo, stochastic calculus).</li>
+
+      <ul class="bullets compact">
+        <li>End-to-end projects: data → model → app (Streamlit, dashboards).</li>
+        <li>Deep Learning: <b>Autoencoders</b>, <b>CNNs</b>, <b>LSTMs/RNNs</b>.</li>
+        <li>Strong statistics: inference, hypothesis testing, Monte Carlo simulation.</li>
       </ul>
+
+      <details class="more">
+        <summary>See more academic & project highlights</summary>
+        <ul class="bullets">
+          <li>Classical ML: Decision Trees, Random Forests, Gradient Boosting, SVMs.</li>
+          <li>Sensitivity & robustness: Gradient, Fisher Information Matrix (FIM), Hessians.</li>
+          <li>Applied projects: anomaly detection (autoencoders), vision (CNNs), sequence modeling (LSTMs).</li>
+          <li>Probability/statistics: stochastic calculus, calibration, error analysis.</li>
+        </ul>
+      </details>
+
+      <!-- Logo strip with Devicon CDN icons -->
+      <div class="logo-strip">
+  <!-- Languages -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="40" height="40" alt="MATLAB"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="SQL"/>
+
+  <!-- ML & DL -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" alt="TensorFlow"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" height="40" alt="PyTorch"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40" alt="scikit-learn"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" height="40" alt="NumPy"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40" alt="Pandas"/>
+
+  <!-- Tools & Platforms -->
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure"/>
     </div>
 
+    <!-- RIGHT: Internships timeline -->
     <div class="timeline">
       <div class="tl-item">
         <span class="tl-date">2025</span>
         <div class="tl-card">
           <b>Neural Network Vulnerability Analysis Intern — NXP</b>
-          <ul class="bullets">
-            <li>Identified vulnerabilities in neural networks by assigning sensitivity scores to model parameters using <b>Gradient, Fisher Information Matrix (FIM), and Hessian methods</b>.</li>
-            <li>Validated vulnerability scores via <b>fault injection</b>, correlating analytical measures with empirical impacts (accuracy drop, entropy increase, Earth Mover’s Distance).  
-                Best correlation observed: Gradient vs. EMD (0.75).</li>
-            <li>Implemented <b>Suspicious Path Analysis (SPA)</b> by combining Layer-wise Relevance Propagation (LRP) with Spectrum-Based Fault Localization (SBFL) to identify critical error propagation paths in deep neural networks.</li>
-          </ul>
+          <p class="muted">Robustness & vulnerability scoring of neural networks.</p>
+          <details class="more">
+            <summary>More details</summary>
+            <ul class="bullets">
+              <li>Identified vulnerabilities using <b>Gradients, Fisher Information Matrix (FIM), Hessians</b>.</li>
+              <li>Validated via <b>fault injection</b>, correlating metrics with impacts (accuracy ↓, entropy ↑, EMD ↑). Best correlation: <b>Gradient vs. EMD = 0.75</b>.</li>
+              <li>Implemented <b>Suspicious Path Analysis (SPA)</b> by combining LRP with SBFL to detect error propagation paths.</li>
+            </ul>
+          </details>
         </div>
       </div>
 
@@ -79,16 +113,21 @@
         <span class="tl-date">2024</span>
         <div class="tl-card">
           <b>AI Functional Safety Intern — NXP</b>
-          <ul class="bullets">
-            <li>Conducted a <b>Fault Tree Analysis (FTA)</b> on AI failure modes, identifying 20+ critical error propagation paths in a CNN.</li>
-            <li>Studied the use of <b>LIME explainability</b> on a CNN (MNIST), generating 10,000+ input saliency maps.</li>
-            <li>Evaluated LIME’s effectiveness: successfully localized visible data perturbations in 85% of cases, but limited performance on internal faults (weights, biases, hyperparameters).</li>
-          </ul>
+          <p class="muted">Failure mode analysis & explainability research.</p>
+          <details class="more">
+            <summary>More details</summary>
+            <ul class="bullets">
+              <li>Conducted <b>Fault Tree Analysis (FTA)</b>, identifying <b>20+ critical error paths</b> in CNNs.</li>
+              <li>Applied <b>LIME</b> on CNNs (MNIST), generating <b>10,000+</b> saliency maps.</li>
+              <li>Localized visible data perturbations in <b>85%</b> of cases; noted limits for internal faults (weights, biases, hyperparams).</li>
+            </ul>
+          </details>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
   <!-- SKILLS -->
