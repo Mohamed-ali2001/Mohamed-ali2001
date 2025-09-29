@@ -1,7 +1,7 @@
 # Mohamed Ali Ben Youssef
 
 Final-year Master’s in **Applied Mathematics & Machine Learning (Data Science)**  
-Aspiring **AI Engineer / Data Scientist** — Deep Learning, Explainability, AI Safety  
+Aspiring **AI Engineer / Data Scientist** — Deep Learning, GenAI, LLMs, Explainability, AI Safety  
 **Contact:** [Email](mailto:mohamedalibenyoussef345@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-ali-ben-youssef-0039a5253/) · [GitHub](https://github.com/<Mohamed-ali2001>)
 
 [![Download CV](https://img.shields.io/badge/CV-PDF-0e6e55)](cv/Mohamed_Ali_Ben_Youssef_CV.pdf)
