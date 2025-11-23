@@ -131,8 +131,9 @@ Toulouse, France • 2024
 - Mathematics for Machine Learning — Coursera  
 - Machine Learning Specialization — Andrew Ng  
 - Deep Learning Specialization — Andrew Ng  
-- Deep Learning in MATLAB  
-- Additional certificates listed in CV
+- Machine Learning in Production
+- vector Databases: from Embeddings to Applications
+- arge Language Model Operations (LLMOps) 
 
 
 ---
