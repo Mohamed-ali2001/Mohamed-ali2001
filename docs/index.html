@@ -1,264 +1,529 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Mohamed Ali Ben Youssef — AI Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="AI Engineer in training · Data Scientist · Explainability & AI Safety" />
-  <!-- styles/script are in docs/ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Ali | AI/ML Engineer & Data Scientist</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="assets/me.png" />
-  <meta property="og:title" content="Mohamed Ali — AI Portfolio" />
-  <meta property="og:description" content="Projects, skills, certifications, and contact." />
-  <meta property="og:image" content="assets/calories-app.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-  <nav class="topnav">
-    <a href="#home" class="brand">M.A. Ben Youssef</a>
-    <div class="navlinks">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certs">Certificates</a>
-      <a href="#contact">Contact</a>
-      <a class="btn small" href="cv/Mohamed_Ali_Ben_Youssef_CV.pdf">Download CV</a>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <header id="home" class="hero">
-    <div class="hero-txt">
-      <h1>Hello, I’m <span class="accent">Mohamed Ali</span></h1>
-      <p>Final-year MSc student in Applied Mathematics & AI (Data Science), aspiring Data Scientist / AI Engineer. Passionate about building data-driven solutions and currently seeking opportunities in AI and Data Science.</p>
-      <div class="cta">
-        <a class="btn" href="#projects">View Projects</a>
-        <a class="btn ghost" href="mailto:mohamedalibenyoussef345@gmail.com">Email</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/mohamed-ali-ben-youssef-0039a5253/">LinkedIn</a>
-        <a class="btn ghost" href="https://github.com/Mohamed-ali2001">GitHub</a>
+  <div class="bg-orbit"></div>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-orb"></span>
+        <span class="logo-text">Mohamed Ali</span>
       </div>
-    </div>
-    <div class="hero-img">
-      <img src="assets/me.png" alt="Portrait" loading="lazy" onerror="this.style.display='none'"/>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <!-- ABOUT / EXPERIENCE -->
-<section id="about" class="section">
-  <h2>About Me & Experience</h2>
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="hero-kicker">AI / Machine Learning / Data Science</p>
+          <h1>
+            Building practical <span class="gradient-text">AI systems</span>
+            from data to deployment.
+          </h1>
+          <p class="hero-subtitle">
+            I’m Mohamed Ali, an AI/ML Engineer & Data Scientist with a Master’s
+            in Applied Mathematics & Machine Learning from
+            École des Mines de Saint-Étienne. I design and build end-to-end
+            AI applications across LLMs, RAG, NLP, computer vision,
+            deep learning, and machine learning.
+          </p>
 
-  <div class="about-grid improved">
-    
-    <div class="about-left">
-      <p class="lead">
-        Final-year MSc in <b>Applied Mathematics & Machine Learning I build AI and data-driven solutions with a focus on <b>explainability</b>, <b>robustness</b>, and <b>impactful applications</b>.
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary-btn">View Projects</a>
+            <a href="#contact" class="btn ghost-btn">Get in Touch</a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="tag">RAG & LLMs</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">MLOps</span>
+          </div>
+        </div>
+
+        <div class="hero-orbit reveal">
+          <div class="hero-planet">
+            <div class="hero-ring"></div>
+            <div class="hero-core"></div>
+          </div>
+          <p class="hero-orbit-text">
+            Always learning, always shipping.<br />
+            From prototype notebooks to production-ready apps.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-inner reveal">
+        <div class="section-header">
+          <h2>About</h2>
+          <p>Who I am and what I like to build.</p>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              I recently graduated from
+              <strong>École des Mines de Saint-Étienne</strong> with a
+              Master’s degree in <strong>Applied Mathematics and Machine Learning</strong>,
+              specializing in <strong>Data Science</strong>.
+            </p>
+            <p>
+              I enjoy working on projects that combine
+              <strong>solid mathematical foundations</strong> with
+              <strong>practical engineering</strong>:
+              from training models, to building APIs, to deploying interactive apps.
+            </p>
+            <p>
+              My experience spans <strong>RAG/LLM apps</strong>,
+              <strong>NLP & semantic search</strong>,
+              <strong>computer vision</strong> (OpenCV, MediaPipe),
+              <strong>deep learning</strong>, classical
+              <strong>machine learning</strong>, and
+              <strong>MLOps / deployment</strong> with Streamlit, FastAPI,
+              Docker, Azure, Git, and GitHub.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="info-card">
+              <h3>Core Focus</h3>
+              <p>
+                End-to-end AI: data → modeling → evaluation → deployment → UX.
+              </p>
+            </div>
+            <div class="info-card">
+              <h3>Current Interests</h3>
+              <p>
+                RAG systems, LLM agents, applied deep learning, and
+                statistical learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Skills</h2>
+          <p>A snapshot of my technical toolbox.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skills-card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>MATLAB</li>
+              <li>Bash</li>
+            </ul>
+          </div>
+
+          <div class="skills-card">
+            <h3>ML & Deep Learning</h3>
+            <ul>
+              <li>TensorFlow, Keras, PyTorch</li>
+              <li>scikit-learn, XGBoost</li>
+              <li>StatsModels, time series</li>
+              <li>RL (DQN)</li>
+            </ul>
+          </div>
+
+          <div class="skills-card">
+            <h3>LLMs, NLP & RAG</h3>
+            <ul>
+              <li>LLaMA 3 (Ollama)</li>
+              <li>Transformers, Sentence-Transformers</li>
+              <li>FAISS, ChromaDB</li>
+              <li>Semantic search, RAG pipelines</li>
+            </ul>
+          </div>
+
+          <div class="skills-card">
+            <h3>Computer Vision</h3>
+            <ul>
+              <li>OpenCV</li>
+              <li>MediaPipe</li>
+              <li>Image classification (CNNs)</li>
+            </ul>
+          </div>
+
+          <div class="skills-card">
+            <h3>MLOps & Deployment</h3>
+            <ul>
+              <li>FastAPI, Streamlit</li>
+              <li>Docker</li>
+              <li>Azure (cloud)</li>
+              <li>Git, GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skills-card">
+            <h3>Explainability & Analytics</h3>
+            <ul>
+              <li>SHAP, LIME</li>
+              <li>Feature importance</li>
+              <li>Model evaluation & metrics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>Selected projects from my GitHub.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Job -> Course Recommender -->
+          <article class="project-card">
+            <h3>Job → Course Recommender</h3>
+            <p>
+              Semantic search engine that recommends the best online courses
+              (Coursera + Udemy) for any job description using sentence
+              embeddings and vector search.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Sentence-Transformers</span>
+              <span class="tag">FAISS</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Streamlit</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/job-course-recommender"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Local Document Assistant -->
+          <article class="project-card">
+            <h3>Local Document AI Assistant</h3>
+            <p>
+              Fully local RAG app for querying your PDF/text documents with
+              natural language. Runs entirely on your machine using LLaMA 3
+              via Ollama and a local vector DB.
+            </p>
+            <div class="project-tags">
+              <span class="tag">LLaMA 3</span>
+              <span class="tag">ChromaDB</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Streamlit</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/local-doc-assistant"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- RL for Chess -->
+          <article class="project-card">
+            <h3>Chess RL Move Analyzer</h3>
+            <p>
+              Offline deep reinforcement learning + Stockfish for chess
+              analysis. Evaluates move quality and suggests better moves
+              through a trained DQN agent.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Reinforcement Learning</span>
+              <span class="tag">DQN</span>
+              <span class="tag">Stockfish</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/RL-for-chess"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Chessbot-me -->
+          <article class="project-card">
+            <h3>Chessbot-me</h3>
+            <p>
+              Neural network-based chess bot trained on my own games plus
+              Kaggle data. Predicts moves from board positions and plays
+              in a style close to mine.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Chess</span>
+              <span class="tag">PGN</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/Chessbot-me"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Sign Language Tracking -->
+          <article class="project-card">
+            <h3>Sign Language Recognition</h3>
+            <p>
+              ASL letter recognition using a CNN trained on Sign Language
+              MNIST, combined with real-time hand tracking and prediction
+              over webcam.
+            </p>
+            <div class="project-tags">
+              <span class="tag">CNN</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">MediaPipe</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/Sign_langage_tracking"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Mail Spam -->
+          <article class="project-card">
+            <h3>Mail Spam Classification</h3>
+            <p>
+              End-to-end ML pipeline for classifying emails as spam or not
+              spam, including EDA, model training, and a Streamlit app for
+              real-time predictions.
+            </p>
+            <div class="project-tags">
+              <span class="tag">NLP</span>
+              <span class="tag">scikit-learn</span>
+              <span class="tag">Streamlit</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/mail_spam_prediction"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Calories Burnt -->
+          <article class="project-card">
+            <h3>Calories Burnt Prediction</h3>
+            <p>
+              Regression models to predict calories burnt during exercise,
+              with model comparison and explainability via feature
+              importance and SHAP values.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Regression</span>
+              <span class="tag">scikit-learn</span>
+              <span class="tag">SHAP</span>
+              <span class="tag">Streamlit</span>
+            </div>
+            <a
+              href="https://github.com/Mohamed-ali2001/Calories-burnt-prediction"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Experience</h2>
+          <p>Where I applied AI & ML in practice.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>AI Scientist Intern — NXP Semiconductors</h3>
+              <p class="timeline-meta">Toulouse, France • 2024–2025</p>
+              <ul>
+                <li>
+                  Studied neural network behavior using mathematical
+                  sensitivity methods and explainability tools.
+                </li>
+                <li>
+                  Analyzed the impact of perturbations and faults on model
+                  performance and decision boundaries.
+                </li>
+                <li>
+                  Contributed to tools for exploring parameter-level
+                  vulnerability in deep learning models.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>AI Safety Intern — NXP Semiconductors</h3>
+              <p class="timeline-meta">Toulouse, France • 2024</p>
+              <ul>
+                <li>
+                  Performed Fault Tree Analysis (FTA) on AI-based use cases.
+                </li>
+                <li>
+                  Evaluated explainability methods (LIME, SHAP) on CNNs
+                  under injected faults.
+                </li>
+                <li>
+                  Helped characterize failure modes and mitigation strategies
+                  for ML components.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- You can add earlier internships or projects here if you want -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Certifications</h2>
+          <p>Some of the courses I completed.</p>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <h3>Mathematics for Machine Learning</h3>
+            <p>Coursera</p>
+          </div>
+          <div class="cert-card">
+            <h3>Machine Learning Specialization</h3>
+            <p>Andrew Ng — Coursera</p>
+          </div>
+          <div class="cert-card">
+            <h3>Deep Learning Specialization</h3>
+            <p>Andrew Ng — Coursera</p>
+          </div>
+          <div class="cert-card">
+            <h3>Deep Learning in MATLAB</h3>
+            <p>MATLAB / MathWorks</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Want to discuss a project, collaboration, or opportunity?</p>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <p>
+              I’m open to opportunities in AI, machine learning, and data
+              science. If you’d like to get in touch, feel free to reach out
+              via email or connect on LinkedIn.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span>📧 Email:</span>
+                <a href="mailto:your.email@example.com">
+                  your.email@example.com
+                </a>
+              </li>
+              <li>
+                <span>💼 LinkedIn:</span>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                  Your LinkedIn Profile
+                </a>
+              </li>
+              <li>
+                <span>🐙 GitHub:</span>
+                <a href="https://github.com/Mohamed-ali2001" target="_blank" rel="noopener noreferrer">
+                  github.com/Mohamed-ali2001
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-note">
+            <p>
+              Tip: replace the email and LinkedIn link here with your actual
+              contact details before deploying your site.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mohamed Ali. All rights reserved.</p>
+      <p class="footer-subtext">
+        Built with HTML, CSS, and vanilla JS. Hosted on GitHub Pages.
       </p>
-
-      <ul class="bullets compact">
-        <li>End-to-end projects: data → model → app (Streamlit, dashboards).</li>
-        <li>Deep Learning: <b>Autoencoders</b>, <b>CNNs</b>, <b>LSTMs/RNNs</b>.</li>
-        <li>Strong statistics: inference, hypothesis testing, Monte Carlo simulation.</li>
-      </ul>
-
-      <details class="more">
-        <summary>See more academic & project highlights</summary>
-        <ul class="bullets">
-          <li>Classical ML: Decision Trees, Random Forests, Gradient Boosting, SVMs.</li>
-          <li>Sensitivity & robustness: Gradient, Fisher Information Matrix (FIM), Hessians.</li>
-          <li>Applied projects: anomaly detection (autoencoders), vision (CNNs), sequence modeling (LSTMs).</li>
-          <li>Probability/statistics: stochastic calculus, calibration, error analysis.</li>
-        </ul>
-      </details>
-
-      <!-- Logo strip with Devicon CDN icons -->
-      <div class="logo-strip">
-  <!-- Languages -->
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
-        
-       
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="SQL"/>
-
-  <!-- ML & DL -->
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" alt="TensorFlow"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" height="40" alt="PyTorch"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40" alt="scikit-learn"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" height="40" alt="NumPy"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40" height="40" alt="Pandas"/>
-
-  <!-- Tools & Platforms -->
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40" alt="Azure"/>
     </div>
+  </footer>
 
-    <!-- RIGHT: Internships timeline -->
-    <div class="timeline">
-      <div class="tl-item">
-        <span class="tl-date">2025</span>
-        <div class="tl-card">
-          <b>Neural Network Vulnerability Analysis Intern — NXP</b>
-          <p class="muted">Robustness & vulnerability scoring of neural networks.</p>
-          <details class="more">
-            <summary>More details</summary>
-            <ul class="bullets">
-              <li>Identified vulnerabilities using <b>Gradients, Fisher Information Matrix (FIM), Hessians</b>.</li>
-              <li>Validated via <b>fault injection</b>, correlating metrics with impacts (accuracy ↓, entropy ↑, EMD ↑). Best correlation: <b>Gradient vs. EMD = 0.75</b>.</li>
-              <li>Implemented <b>Suspicious Path Analysis (SPA)</b> by combining LRP with SBFL to detect error propagation paths.</li>
-            </ul>
-          </details>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <span class="tl-date">2024</span>
-        <div class="tl-card">
-          <b>AI Functional Safety Intern — NXP</b>
-          <p class="muted">Failure mode analysis & explainability research.</p>
-          <details class="more">
-            <summary>More details</summary>
-            <ul class="bullets">
-              <li>Conducted <b>Fault Tree Analysis (FTA)</b>, identifying <b>20+ critical error paths</b> in CNNs.</li>
-              <li>Applied <b>LIME</b> on CNNs (MNIST), generating <b>10,000+</b> saliency maps.</li>
-              <li>Localized visible data perturbations in <b>85%</b> of cases; noted limits for internal faults (weights, biases, hyperparams).</li>
-            </ul>
-          </details>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-  <!-- SKILLS -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills">
-      <div class="skill"><span>Python</span><div class="bar"><div class="fill p90"></div></div><span class="pct">90%</span></div>
-      <div class="skill"><span>TensorFlow</span><div class="bar"><div class="fill p80"></div></div><span class="pct">80%</span></div>
-      <div class="skill"><span>scikit-learn</span><div class="bar"><div class="fill p85"></div></div><span class="pct">85%</span></div>
-      <div class="skill"><span>SQL</span><div class="bar"><div class="fill p70"></div></div><span class="pct">70%</span></div>
-      <div class="skill"><span>Linux</span><div class="bar"><div class="fill p70"></div></div><span class="pct">70%</span></div>
-      <div class="skill tags">
-        <span class="tag">NLP</span><span class="tag">Computer Vision</span><span class="tag">SHAP/LIME</span>
-        <span class="tag">MLOps</span><span class="tag">Power BI</span><span class="tag">Azure</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-
-    <div class="filters">
-      <button class="chip is-active" data-filter="all">All</button>
-      <button class="chip" data-filter="streamlit">Streamlit</button>
-      <button class="chip" data-filter="nlp">NLP</button>
-      <button class="chip" data-filter="cv">Computer Vision</button>
-      <button class="chip" data-filter="safety">AI Safety</button>
-    </div>
-
-    <div class="cards">
-      <article class="card" data-tags="streamlit">
-        <img src="assets/calories-app.png" alt="Calories app" loading="lazy" onerror="this.src='assets/placeholder.png'"/>
-        <div class="card-body">
-          <h3>Calories Burnt Prediction</h3>
-          <p>Streamlit app with SHAP explainability and what-if sliders.</p>
-          <div class="badges"><span>SHAP</span><span>Regression</span><span>Streamlit</span></div>
-          <div class="actions">
-            <a href="https://github.com/Mohamed-ali2001/Calories-burnt-prediction">Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card" data-tags="streamlit nlp">
-        <img src="assets/spam-app.png" alt="Spam app" loading="lazy" onerror="this.src='assets/placeholder.png'"/>
-        <div class="card-body">
-          <h3>Spam Email Detection</h3>
-          <p>NLP classifier with PR curve and keyword highlighting.</p>
-          <div class="badges"><span>NLP</span><span>Classification</span><span>Streamlit</span></div>
-          <div class="actions">
-            <a href="https://github.com/Mohamed-ali2001/mail_spam_prediction">Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card" data-tags="cv">
-        <img src="assets/sign-tracking.png" alt="Sign tracking" loading="lazy" onerror="this.src='assets/placeholder.png'"/>
-        <div class="card-body">
-          <h3>Sign Language Tracking</h3>
-          <p>Real-time CNN + hand-tracking via webcam (~90% accuracy).</p>
-          <div class="badges"><span>CNN</span><span>OpenCV</span></div>
-          <div class="actions">
-            <a href="https://github.com/Mohamed-ali2001/Sign_langage_tracking">Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card" data-tags="safety">
-        <img src="assets/chess-analyzer.png" alt="Chess analyzer" loading="lazy" onerror="this.src='assets/placeholder.png'"/>
-        <div class="card-body">
-          <h3>Personalized Chess Analyzer</h3>
-          <p>PGN parsing, Stockfish labels; DL predicts next move (+200 Elo).</p>
-          <div class="badges"><span>DL</span><span>Stockfish</span></div>
-          <div class="actions">
-            <a href="https://github.com/Mohamed-ali2001/Chessbot-me">Code</a>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- CERTIFICATES -->
-  <section id="certs" class="section">
-    <h2>Certificates</h2>
-    <div class="cert-grid">
-      <figure class="cert">
-        <img src="assets/cert-ml.png" alt="ML Spec" loading="lazy" onerror="this.style.display='none'"/>
-        <figcaption>Machine Learning Specialization — Stanford</figcaption>
-        <a class="btn small" href="certificates/stanford-ml.pdf" target="_blank">Open PDF</a>
-      </figure>
-      <figure class="cert">
-        <img src="assets/cert-m4ml.png" alt="Math for ML" loading="lazy" onerror="this.style.display='none'"/>
-        <figcaption>Mathematics for ML — Coursera</figcaption>
-        <a class="btn small" href="certificates/math-for-ml.pdf" target="_blank">Open PDF</a>
-      </figure>
-
-      <!--:
-      <figure class="cert">
-        <img src="assets/cert-dl.png" alt="DL Spec" loading="lazy" onerror="this.style.display='none'"/>
-        <figcaption>Deep Learning Specialization — Coursera</figcaption>
-        <a class="btn small" href="certificates/deep-learning.pdf" target="_blank">Open PDF</a>
-      </figure>
-      <figure class="cert">
-        <img src="assets/cert-llmops.png" alt="LLMOps" loading="lazy" onerror="this.style.display='none'"/>
-        <figcaption>LLMOps Specialization</figcaption>
-        <a class="btn small" href="certificates/llmops.pdf" target="_blank">Open PDF</a>
-      </figure>
-      -->
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <form class="contact" action="https://formspree.io/f/xnnbovyd" method="POST">
-      <div class="row">
-        <input name="name" placeholder="Your name" required />
-        <input type="email" name="email" placeholder="Your email" required />
-      </div>
-      <textarea name="message" rows="5" placeholder="Your message"></textarea>
-     
-      <input type="hidden" name="_subject" value="New message from your portfolio" />
-      <input type="hidden" name="_gotcha" style="display:none" />   <!-- honeypot anti-bot -->
-      <input type="hidden" name="_captcha" value="false" />         <!-- disable captcha (optional) -->
-      <input type="hidden" name="_template" value="table" />        <!-- nicer email formatting -->
-      <input type="hidden" name="_next" value="https://mohamed-ali2001.github.io/MOHAMED-ALI2001/#contact" /> 
-      <button class="btn" type="submit">Send</button>
-      <p class="muted">Or email me at <a href="mailto:mohamedalibenyoussef345@gmail.com">mohamedalibenyoussef345@gmail.com</a></p>
-    </form>
-  </section>
-
-  <footer>© <span id="year"></span> Mohamed Ali Ben Youssef</footer>
   <script src="script.js"></script>
 </body>
 </html>
