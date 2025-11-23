@@ -1,72 +1,141 @@
-# Mohamed Ali Ben Youssef
+<h1 align="center">Hi, I'm Mohamed Ali 👋</h1>
+<h3 align="center">AI/ML Engineer & Data Scientist</h3>
 
-Final-year Master’s in **Applied Mathematics & Machine Learning (Data Science)**  
-Aspiring **AI Engineer / Data Scientist** — Deep Learning, GenAI, LLMs, Explainability, AI Safety  
+<p align="center">
+  Master’s in Applied Mathematics & Machine Learning — École des Mines de Saint-Étienne  
+</p>
+
+---
 **Contact:** [Email](mailto:mohamedalibenyoussef345@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-ali-ben-youssef-0039a5253/) · [GitHub](https://github.com/<Mohamed-ali2001>)
 
 [![Download CV](https://img.shields.io/badge/CV-PDF-0e6e55)](cv/Mohamed_Ali_Ben_Youssef_CV.pdf)
+## 🚀 About Me
+
+I’m an AI/ML Engineer and Data Scientist passionate about building **practical, efficient, and impactful AI systems**.  
+My work ranges across:
+
+- **LLMs & RAG** (local & cloud-based)
+- **NLP & semantic search**
+- **Deep Learning** (CNNs, DNNs, RL)
+- **Computer Vision** (OpenCV & MediaPipe)
+- **Machine Learning & Statistics**
+- **MLOps & Deployment** (Streamlit, FastAPI, Docker, Azure)
+- **Explainability** (SHAP, LIME)
+
+I enjoy designing **end-to-end AI applications** — from data processing, modeling, and training to deployment and interactive UI integration.
 
 ---
 
-## About
-- Built ML apps end-to-end (Streamlit, notebooks), with a focus on **explainability (SHAP/LIME)** and **robustness**.  
-- Internship experience in **AI Safety**: Fisher Information Matrix, Hessian sensitivity, and **fault injection** for neural networks.  
-- Interested in **data products** that support decisions (dashboards, what-if analysis, content moderation, fraud/anomaly detection).
+## 🔧 Tech Stack
+
+### **Languages**
+Python, SQL, MATLAB, Bash
+
+### **Machine Learning & Deep Learning**
+TensorFlow, PyTorch, scikit-learn, XGBoost, StatsModels
+
+### **LLMs, NLP & RAG**
+LLaMA 3, Transformers, Sentence Transformers, FAISS, ChromaDB
+
+### **Computer Vision**
+OpenCV, MediaPipe
+
+### **MLOps & Deployment**
+FastAPI, Streamlit, Docker, Azure, Git/GitHub
+
+### **Tools & Libraries**
+NumPy, Pandas, Matplotlib, Seaborn, SHAP, LIME
 
 ---
 
-## 🚀 Featured Projects
+## 🧠 Featured Projects
 
-<details>
-<summary><b>Calories Burnt Prediction — Streamlit + SHAP</b></summary>
-
-- Predicts calories burnt from biometric & activity data  
-- **Explainability:** global & local SHAP, what-if sliders  
-- Repo: https://github.com/<Mohamed-ali2001>/Calories-burnt-prediction  
-<img src="assets/calories-app.png" width="500" alt="Calories app screenshot"/>
-
-</details>
-
-<details>
-<summary><b>Spam Email Detection — Streamlit</b></summary>
-
-- NLP classifier with precision/recall, keyword highlights  
-- Repo: https://github.com/<Mohamed-ali2001>/mail_spam_prediction  
-<img src="assets/spam-app.png" width="500" alt="Spam app screenshot"/>
-
-</details>
-
-<details>
-<summary><b>Sign Language Tracking — CNN + Hand-tracking</b></summary>
-
-- Real-time sign recognition (~90% acc.) via webcam  
-- Repo: https://github.com/<Mohamed-ali2001>/Sign_langage_tracking  
-<img src="assets/sign-tracking.png" width="500" alt="Sign tracking screenshot"/>
-
-</details>
-
-<details>
-<summary><b>Personalized Chess Game Analyzer</b></summary>
-
-- Parses PGN, labels moves (*blunder, mistake, best…*), DL model predicts next move  
-- +200 Elo improvement from targeted practice  
-- Repo: https://github.com/<Mohamed-ali2001>/Chessbot-me  
-<img src="assets/chess-analyzer.png" width="500" alt="Chess analyzer screenshot"/>
-
-</details>
+### 🔹 **Job → Course Recommender**  
+**Semantic search engine** recommending the best online courses for any job description.  
+- Sentence Transformers + FAISS  
+- FastAPI backend  
+- Streamlit UI  
+- Combines Coursera + Udemy catalogs  
+🔗 GitHub: [job-course-recommender](https://github.com/Mohamed-ali2001/job-course-recommender)
 
 ---
 
-## 🧰 Skills
-**Python, SQL, TensorFlow, scikit-learn, NLP, Computer Vision, SHAP/LIME, Git, Power BI, Azure, LLM**
+### 🔹 **Local Document AI Assistant (Local RAG App)**  
+Local RAG application for PDF/text Q&A with **no APIs required**.  
+- LLaMA 3 via Ollama  
+- ChromaDB, Sentence-Transformers  
+- FastAPI API + Streamlit UI  
+🔗 GitHub: [local-doc-assistant](https://github.com/Mohamed-ali2001/local-doc-assistant)
 
 ---
 
-## 🎓 Certifications  
+### 🔹 **Chess RL Move Analyzer**  
+Offline **Deep Reinforcement Learning** + Stockfish for chess analysis.  
+- Move quality classification  
+- RL agent recommending best moves  
+- Interactive board + evaluation bar  
+🔗 GitHub: [RL-for-chess](https://github.com/Mohamed-ali2001/RL-for-chess)
 
-[![ML Specialization](https://img.shields.io/badge/Stanford-ML%20Specialization-0e6e55)](certificates/stanford-ml.pdf)
+---
 
-[![Math for ML](https://img.shields.io/badge/Coursera-Mathematics%20for%20ML-0e6e55)](certificates/math-for-ml.pdf)
+### 🔹 **Chessbot-me (Neural Chess Player)**  
+A deep learning model trained on my personal PGN dataset + Kaggle games.  
+- Predicts moves from board states  
+- Plays similarly to my style  
+🔗 GitHub: [Chessbot-me](https://github.com/Mohamed-ali2001/Chessbot-me)
 
-👉 Explore my portfolio here:  
-**[https://<your-username>.github.io/](https://mohamed-ali2001.github.io/Mohamed-ali2001/)**
+---
+
+### 🔹 **Real-Time Sign Language Recognition**  
+Computer vision + deep learning for ASL letter recognition.  
+- CNN model + MediaPipe hand tracking  
+- Real-time webcam prediction  
+🔗 GitHub: [Sign_language_tracking](https://github.com/Mohamed-ali2001/Sign_langage_tracking)
+
+---
+
+### 🔹 **Mail Spam Classifier (ML + Streamlit App)**  
+- Exploratory analysis + ML modeling  
+- Real-time spam prediction UI  
+🔗 GitHub: [mail_spam_prediction](https://github.com/Mohamed-ali2001/mail_spam_prediction)
+
+---
+
+### 🔹 **Calories Burnt Prediction (Explainable ML)**  
+- ML regression models  
+- SHAP feature importance  
+- Streamlit prediction interface  
+🔗 GitHub: [Calories-burnt-prediction](https://github.com/Mohamed-ali2001/Calories-burnt-prediction)
+
+---
+
+## 🔬 Experience
+
+### **AI Scientist Intern — NXP Semiconductors**  
+Toulouse, France • 2024–2025  
+- Neural network analysis & mathematical sensitivity methods  
+- Explainability (LIME, SHAP) applied to CNNs  
+- Fault injection & performance robustness studies  
+- Tooling for parameter-level vulnerability assessment
+
+### **AI Safety Intern — NXP Semiconductors**  
+Toulouse, France • 2024  
+- Fault Tree Analysis of ML systems  
+- Explainability evaluation under injected faults  
+- Applied CNN robustness testing on MNIST models
+
+---
+
+## 🎓 Certifications
+
+- Mathematics for Machine Learning — Coursera  
+- Machine Learning Specialization — Andrew Ng  
+- Deep Learning Specialization — Andrew Ng  
+- Deep Learning in MATLAB  
+- Additional certificates listed in CV
+
+
+---
+
+<h4 align="center">Thanks for visiting! ⭐ Feel free to explore my repositories.</h4>
+
