@@ -594,10 +594,10 @@ body {
 }
 
 .company-logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  background: #ffffff;
+  background: none;
   border-radius: 0.4rem;
   padding: 0.1rem 0.25rem;
 }
